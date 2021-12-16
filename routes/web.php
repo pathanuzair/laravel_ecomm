@@ -24,3 +24,4 @@ Route::view('/login', 'login');
 
 Route::post('login_submit', [UserController::class, 'login']);
 Route::get('/detail/{id}', [ProductController::class, 'detail']);
+Route::get('/search', [ProductController::class, 'search']);
